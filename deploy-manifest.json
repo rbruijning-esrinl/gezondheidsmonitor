@@ -3,7 +3,7 @@
   "version": "0.1",
   "generatedAt": "2026-11-06T12:55:23.716Z",
   "title": "Gezondheidsmonitor 2024 — gezondheid en welzijn",
-  "authMode": "public",
+  "authMode": "oauth",
   "entry": "index.html",
   "sourceAppPath": "outputs/apps/2026-11-06T12-55-23-465227ca-f38d-4cfc-88b5-08183eacfc93/index.html",
   "files": {
@@ -11,5 +11,8 @@
     "map": "map.json",
     "runtime": "app.js",
     "auth": "standalone-auth.js"
-  }
+  },
+  "portalUrl": "https://www.arcgis.com",
+  "appId": "GsA27NKHz9eZF1z7",
+  "deploymentUrl": "https://rbruijning-esrinl.github.io/gezondheidsmonitor/"
 }

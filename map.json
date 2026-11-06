@@ -567,14 +567,14 @@
             "visualVariables": [],
             "classBreakInfos": [
               {
-                "label": "48 – 70.4",
-                "classMaxValue": 70.5,
+                "label": "3.2 – 5.9",
+                "classMaxValue": 5.9,
                 "symbol": {
                   "type": "esriSFS",
                   "color": [
-                    239,
-                    243,
-                    255,
+                    242,
+                    240,
+                    247,
                     255
                   ],
                   "outline": {
@@ -592,14 +592,14 @@
                 }
               },
               {
-                "label": "> 70.4 – 74",
-                "classMaxValue": 74,
+                "label": "> 5.9 – 6.9",
+                "classMaxValue": 6.9,
                 "symbol": {
                   "type": "esriSFS",
                   "color": [
-                    189,
-                    215,
-                    231,
+                    203,
+                    201,
+                    226,
                     255
                   ],
                   "outline": {
@@ -617,14 +617,39 @@
                 }
               },
               {
-                "label": "> 74 – 76.4",
-                "classMaxValue": 76.4,
+                "label": "> 6.9 – 8.1",
+                "classMaxValue": 8.1,
                 "symbol": {
                   "type": "esriSFS",
                   "color": [
+                    158,
+                    154,
+                    200,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      255,
+                      255,
+                      255,
+                      153
+                    ],
+                    "width": 0.35,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              },
+              {
+                "label": "> 8.1 – 10.3",
+                "classMaxValue": 10.4,
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    117,
                     107,
-                    174,
-                    214,
+                    177,
                     255
                   ],
                   "outline": {
@@ -642,39 +667,14 @@
                 }
               },
               {
-                "label": "> 76.4 – 78.6",
-                "classMaxValue": 78.7,
+                "label": "> 10.3 – 24",
+                "classMaxValue": 24.1,
                 "symbol": {
                   "type": "esriSFS",
                   "color": [
-                    49,
-                    130,
-                    189,
-                    255
-                  ],
-                  "outline": {
-                    "type": "esriSLS",
-                    "color": [
-                      255,
-                      255,
-                      255,
-                      153
-                    ],
-                    "width": 0.35,
-                    "style": "esriSLSSolid"
-                  },
-                  "style": "esriSFSSolid"
-                }
-              },
-              {
-                "label": "> 78.6 – 88.8",
-                "classMaxValue": 88.9,
-                "symbol": {
-                  "type": "esriSFS",
-                  "color": [
-                    8,
-                    81,
-                    156,
+                    84,
+                    39,
+                    143,
                     255
                   ],
                   "outline": {
@@ -714,11 +714,11 @@
               },
               "style": "esriSFSSolid"
             },
-            "field": "goed_ervaren_gezondheid_4",
+            "field": "hoog_risico_angststoornis_of_depressie_14",
             "legendOptions": {
-              "title": "Goed ervaren gezondheid (%)"
+              "title": "Risico angst / depressie (%)"
             },
-            "minValue": 48.5
+            "minValue": 3.3
           }
         }
       }
@@ -727,18 +727,27 @@
   "baseMap": {
     "baseMapLayers": [
       {
-        "id": "ac53cdd7464c41b8a72dcdd05ccb8028",
+        "id": "World_Hillshade_2559",
+        "showLegend": true,
         "opacity": 1,
-        "title": "Topo_RD",
+        "title": "World Hillshade",
+        "url": "https://ibasemaps-api.arcgis.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer",
         "visibility": true,
-        "itemId": "38c4cfd9b72346c988be5fff1668ea79",
+        "layerType": "ArcGISTiledMapServiceLayer"
+      },
+      {
+        "id": "VectorTile_9568",
+        "opacity": 1,
+        "title": "World Topographic Map",
+        "visibility": true,
+        "itemId": "42df0d22517e49ad84edcee4c093857d",
         "layerType": "VectorTileLayer",
-        "minScale": 0,
-        "maxScale": 11,
-        "styleUrl": "https://tiles.arcgis.com/tiles/nSZVuSZjHpEZZbRo/arcgis/rest/services/Topo_RD/VectorTileServer"
+        "minScale": 295828763.7957775,
+        "maxScale": 70.5310735,
+        "styleUrl": "https://www.arcgis.com/sharing/rest/content/items/42df0d22517e49ad84edcee4c093857d/resources/styles/root.json"
       }
     ],
-    "title": "Topo RD (vector tiled)"
+    "title": "Topographic"
   },
   "authoringApp": "ArcGIS API for JavaScript",
   "authoringAppVersion": "5.1",
