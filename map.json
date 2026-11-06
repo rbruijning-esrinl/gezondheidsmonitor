@@ -1,0 +1,765 @@
+{
+  "operationalLayers": [
+    {
+      "id": "1a1b0eed43c-layer-4",
+      "disablePopup": false,
+      "title": "Gezondheidsmonitor 2024 — Wijken",
+      "url": "https://services.arcgis.com/emS4w7iyWEQiulAb/arcgis/rest/services/Gezondheidsmonitor_2024_Wijken/FeatureServer/0",
+      "visibility": true,
+      "itemId": "19d24e8b8fb94ffe97c04fc02500173e",
+      "layerType": "ArcGISFeatureLayer",
+      "blendMode": "multiply",
+      "popupInfo": {
+        "popupElements": [
+          {
+            "type": "text",
+            "text": "<div style=\"background-color:#edf5f5;padding:14px;border-left:4px solid #147d92;\"><p style=\"color:#37636a;margin:0;\">GEZONDHEIDSMONITOR · 2024</p><p style=\"font-size:28px;color:#135767;margin:6px 0;\"><b>{expression/headline}</b></p><p style=\"margin:0;\">Goed ervaren gezondheid</p></div><p>Wijk <b>{WK_NAAM}</b> · {GM_NAAM}<br/>Wijkcode: {WK_CODE}</p>"
+          },
+          {
+            "type": "media",
+            "mediaInfos": [
+              {
+                "altText": "Staafdiagram Gezondheid voor de geselecteerde wijk, in procenten.",
+                "caption": "Ervaren gezondheid en langdurige gezondheidsproblemen. Waarden in procenten (%).",
+                "title": "Gezondheid",
+                "type": "barchart",
+                "value": {
+                  "colors": [
+                    [
+                      20,
+                      125,
+                      146,
+                      255
+                    ],
+                    [
+                      20,
+                      125,
+                      146,
+                      255
+                    ],
+                    [
+                      20,
+                      125,
+                      146,
+                      255
+                    ]
+                  ],
+                  "fields": [
+                    "expression/pct0",
+                    "expression/pct1",
+                    "expression/pct2"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "mediaInfos": [
+              {
+                "altText": "Staafdiagram Mentale gezondheid voor de geselecteerde wijk, in procenten.",
+                "caption": "Een hoger percentage wijst hier op meer gerapporteerde klachten of kwetsbaarheid. Een risico-indicator is geen diagnose. Waarden in procenten (%).",
+                "title": "Mentale gezondheid",
+                "type": "barchart",
+                "value": {
+                  "colors": [
+                    [
+                      155,
+                      91,
+                      144,
+                      255
+                    ],
+                    [
+                      155,
+                      91,
+                      144,
+                      255
+                    ],
+                    [
+                      155,
+                      91,
+                      144,
+                      255
+                    ]
+                  ],
+                  "fields": [
+                    "expression/pct3",
+                    "expression/pct4",
+                    "expression/pct5"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "mediaInfos": [
+              {
+                "altText": "Staafdiagram Sociaal welzijn voor de geselecteerde wijk, in procenten.",
+                "caption": "Eenzaamheid en financiële druk naast de positieve indicator steun van anderen. Sterke eenzaamheid is geen aparte, optelbare groep. Waarden in procenten (%).",
+                "title": "Sociaal welzijn",
+                "type": "barchart",
+                "value": {
+                  "colors": [
+                    [
+                      86,
+                      122,
+                      179,
+                      255
+                    ],
+                    [
+                      86,
+                      122,
+                      179,
+                      255
+                    ],
+                    [
+                      86,
+                      122,
+                      179,
+                      255
+                    ],
+                    [
+                      86,
+                      122,
+                      179,
+                      255
+                    ]
+                  ],
+                  "fields": [
+                    "expression/pct6",
+                    "expression/pct7",
+                    "expression/pct8",
+                    "expression/pct9"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "mediaInfos": [
+              {
+                "altText": "Staafdiagram Leefstijl voor de geselecteerde wijk, in procenten.",
+                "caption": "Bewegen en sporten zijn positieve indicatoren; overgewicht en roken zijn risicofactoren. Waarden in procenten (%).",
+                "title": "Leefstijl",
+                "type": "barchart",
+                "value": {
+                  "colors": [
+                    [
+                      188,
+                      119,
+                      58,
+                      255
+                    ],
+                    [
+                      188,
+                      119,
+                      58,
+                      255
+                    ],
+                    [
+                      188,
+                      119,
+                      58,
+                      255
+                    ],
+                    [
+                      188,
+                      119,
+                      58,
+                      255
+                    ]
+                  ],
+                  "fields": [
+                    "expression/pct10",
+                    "expression/pct11",
+                    "expression/pct12",
+                    "expression/pct13"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "<hr/><p><b>Zo lees je de grafieken</b><br/>Elke balk is een afzonderlijke indicator. Percentages kunnen overlappen en tellen niet op tot 100%. De grafiekassen kunnen per thema verschillen; vergelijk de percentages, niet alleen de balklengtes. Ontbrekende of ongeldige percentages worden niet als nul ingevuld.</p><p>Dit zijn wijkcijfers, geen uitspraken over individuele inwoners. De beschikbare itembeschrijving specificeert geen leeftijdsafbakening, onzekerheidsmarges of nadere berekeningsmethode.</p><p><a href=\"https://www.arcgis.com/home/item.html?id=19d24e8b8fb94ffe97c04fc02500173e\" target=\"_blank\">Bron en toelichting: Gezondheidsmonitor 2024 Wijken</a></p>"
+          }
+        ],
+        "description": "<div style=\"background-color:#edf5f5;padding:14px;border-left:4px solid #147d92;\"><p style=\"color:#37636a;margin:0;\">GEZONDHEIDSMONITOR · 2024</p><p style=\"font-size:28px;color:#135767;margin:6px 0;\"><b>{expression/headline}</b></p><p style=\"margin:0;\">Goed ervaren gezondheid</p></div><p>Wijk <b>{WK_NAAM}</b> · {GM_NAAM}<br/>Wijkcode: {WK_CODE}</p>",
+        "mediaInfos": [
+          {
+            "altText": "Staafdiagram Gezondheid voor de geselecteerde wijk, in procenten.",
+            "caption": "Ervaren gezondheid en langdurige gezondheidsproblemen. Waarden in procenten (%).",
+            "title": "Gezondheid",
+            "type": "barchart",
+            "value": {
+              "colors": [
+                [
+                  20,
+                  125,
+                  146,
+                  255
+                ],
+                [
+                  20,
+                  125,
+                  146,
+                  255
+                ],
+                [
+                  20,
+                  125,
+                  146,
+                  255
+                ]
+              ],
+              "fields": [
+                "expression/pct0",
+                "expression/pct1",
+                "expression/pct2"
+              ]
+            }
+          },
+          {
+            "altText": "Staafdiagram Mentale gezondheid voor de geselecteerde wijk, in procenten.",
+            "caption": "Een hoger percentage wijst hier op meer gerapporteerde klachten of kwetsbaarheid. Een risico-indicator is geen diagnose. Waarden in procenten (%).",
+            "title": "Mentale gezondheid",
+            "type": "barchart",
+            "value": {
+              "colors": [
+                [
+                  155,
+                  91,
+                  144,
+                  255
+                ],
+                [
+                  155,
+                  91,
+                  144,
+                  255
+                ],
+                [
+                  155,
+                  91,
+                  144,
+                  255
+                ]
+              ],
+              "fields": [
+                "expression/pct3",
+                "expression/pct4",
+                "expression/pct5"
+              ]
+            }
+          },
+          {
+            "altText": "Staafdiagram Sociaal welzijn voor de geselecteerde wijk, in procenten.",
+            "caption": "Eenzaamheid en financiële druk naast de positieve indicator steun van anderen. Sterke eenzaamheid is geen aparte, optelbare groep. Waarden in procenten (%).",
+            "title": "Sociaal welzijn",
+            "type": "barchart",
+            "value": {
+              "colors": [
+                [
+                  86,
+                  122,
+                  179,
+                  255
+                ],
+                [
+                  86,
+                  122,
+                  179,
+                  255
+                ],
+                [
+                  86,
+                  122,
+                  179,
+                  255
+                ],
+                [
+                  86,
+                  122,
+                  179,
+                  255
+                ]
+              ],
+              "fields": [
+                "expression/pct6",
+                "expression/pct7",
+                "expression/pct8",
+                "expression/pct9"
+              ]
+            }
+          },
+          {
+            "altText": "Staafdiagram Leefstijl voor de geselecteerde wijk, in procenten.",
+            "caption": "Bewegen en sporten zijn positieve indicatoren; overgewicht en roken zijn risicofactoren. Waarden in procenten (%).",
+            "title": "Leefstijl",
+            "type": "barchart",
+            "value": {
+              "colors": [
+                [
+                  188,
+                  119,
+                  58,
+                  255
+                ],
+                [
+                  188,
+                  119,
+                  58,
+                  255
+                ],
+                [
+                  188,
+                  119,
+                  58,
+                  255
+                ],
+                [
+                  188,
+                  119,
+                  58,
+                  255
+                ]
+              ],
+              "fields": [
+                "expression/pct10",
+                "expression/pct11",
+                "expression/pct12",
+                "expression/pct13"
+              ]
+            }
+          }
+        ],
+        "expressionInfos": [
+          {
+            "name": "pct0",
+            "title": "Goed ervaren gezondheid",
+            "expression": "var v = $feature[\"goed_ervaren_gezondheid_4\"]; if (IsEmpty(v)) { return null; } if (v < 0 || v > 100) { return null; } return v;"
+          },
+          {
+            "name": "pct1",
+            "title": "Langdurige aandoening(en)",
+            "expression": "var v = $feature[\"een_of_meer_langdurige_aandoeningen_5\"]; if (IsEmpty(v)) { return null; } if (v < 0 || v > 100) { return null; } return v;"
+          },
+          {
+            "name": "pct2",
+            "title": "Langdurig beperkt",
+            "expression": "var v = $feature[\"langdurig_beperkt_6\"]; if (IsEmpty(v)) { return null; } if (v < 0 || v > 100) { return null; } return v;"
+          },
+          {
+            "name": "pct3",
+            "title": "Hoog risico angst / depressie",
+            "expression": "var v = $feature[\"hoog_risico_angststoornis_of_depressie_14\"]; if (IsEmpty(v)) { return null; } if (v < 0 || v > 100) { return null; } return v;"
+          },
+          {
+            "name": "pct4",
+            "title": "Heel veel stress (4 weken)",
+            "expression": "var v = $feature[\"heel_veel_stress_afg4_weken_17\"]; if (IsEmpty(v)) { return null; } if (v < 0 || v > 100) { return null; } return v;"
+          },
+          {
+            "name": "pct5",
+            "title": "Lage veerkracht",
+            "expression": "var v = $feature[\"lage_veerkracht_22\"]; if (IsEmpty(v)) { return null; } if (v < 0 || v > 100) { return null; } return v;"
+          },
+          {
+            "name": "pct6",
+            "title": "Eenzaam",
+            "expression": "var v = $feature[\"eenzaam_25\"]; if (IsEmpty(v)) { return null; } if (v < 0 || v > 100) { return null; } return v;"
+          },
+          {
+            "name": "pct7",
+            "title": "Sterk eenzaam",
+            "expression": "var v = $feature[\"sterk_eenzaam_26\"]; if (IsEmpty(v)) { return null; } if (v < 0 || v > 100) { return null; } return v;"
+          },
+          {
+            "name": "pct8",
+            "title": "Steun van anderen",
+            "expression": "var v = $feature[\"krijgt_steun_van_anderen_29\"]; if (IsEmpty(v)) { return null; } if (v < 0 || v > 100) { return null; } return v;"
+          },
+          {
+            "name": "pct9",
+            "title": "Moeite met rondkomen",
+            "expression": "var v = $feature[\"moeite_met_rondkomen_32\"]; if (IsEmpty(v)) { return null; } if (v < 0 || v > 100) { return null; } return v;"
+          },
+          {
+            "name": "pct10",
+            "title": "Voldoet aan beweegrichtlijn",
+            "expression": "var v = $feature[\"voldoet_aan_de_beweegrichtlijn_40\"]; if (IsEmpty(v)) { return null; } if (v < 0 || v > 100) { return null; } return v;"
+          },
+          {
+            "name": "pct11",
+            "title": "Wekelijks sporten",
+            "expression": "var v = $feature[\"wekelijks_sporten_41\"]; if (IsEmpty(v)) { return null; } if (v < 0 || v > 100) { return null; } return v;"
+          },
+          {
+            "name": "pct12",
+            "title": "Overgewicht",
+            "expression": "var v = $feature[\"overgewicht_33\"]; if (IsEmpty(v)) { return null; } if (v < 0 || v > 100) { return null; } return v;"
+          },
+          {
+            "name": "pct13",
+            "title": "Rookt tabak",
+            "expression": "var v = $feature[\"rookt_tabak_35\"]; if (IsEmpty(v)) { return null; } if (v < 0 || v > 100) { return null; } return v;"
+          },
+          {
+            "name": "headline",
+            "title": "Ervaren gezondheid",
+            "expression": "var v = $feature.goed_ervaren_gezondheid_4; if (IsEmpty(v)) { return \"Geen gegevens\"; } if (v < 0 || v > 100) { return \"Geen gegevens\"; } return Text(v, \"0.0\") + \"%\";"
+          }
+        ],
+        "fieldInfos": [
+          {
+            "fieldName": "expression/pct0",
+            "format": {
+              "digitSeparator": true,
+              "places": 1
+            },
+            "isEditable": true,
+            "label": "Goed ervaren gezondheid (%)",
+            "visible": true
+          },
+          {
+            "fieldName": "expression/pct1",
+            "format": {
+              "digitSeparator": true,
+              "places": 1
+            },
+            "isEditable": true,
+            "label": "Langdurige aandoening(en) (%)",
+            "visible": true
+          },
+          {
+            "fieldName": "expression/pct2",
+            "format": {
+              "digitSeparator": true,
+              "places": 1
+            },
+            "isEditable": true,
+            "label": "Langdurig beperkt (%)",
+            "visible": true
+          },
+          {
+            "fieldName": "expression/pct3",
+            "format": {
+              "digitSeparator": true,
+              "places": 1
+            },
+            "isEditable": true,
+            "label": "Hoog risico angst / depressie (%)",
+            "visible": true
+          },
+          {
+            "fieldName": "expression/pct4",
+            "format": {
+              "digitSeparator": true,
+              "places": 1
+            },
+            "isEditable": true,
+            "label": "Heel veel stress (4 weken) (%)",
+            "visible": true
+          },
+          {
+            "fieldName": "expression/pct5",
+            "format": {
+              "digitSeparator": true,
+              "places": 1
+            },
+            "isEditable": true,
+            "label": "Lage veerkracht (%)",
+            "visible": true
+          },
+          {
+            "fieldName": "expression/pct6",
+            "format": {
+              "digitSeparator": true,
+              "places": 1
+            },
+            "isEditable": true,
+            "label": "Eenzaam (%)",
+            "visible": true
+          },
+          {
+            "fieldName": "expression/pct7",
+            "format": {
+              "digitSeparator": true,
+              "places": 1
+            },
+            "isEditable": true,
+            "label": "Sterk eenzaam (%)",
+            "visible": true
+          },
+          {
+            "fieldName": "expression/pct8",
+            "format": {
+              "digitSeparator": true,
+              "places": 1
+            },
+            "isEditable": true,
+            "label": "Steun van anderen (%)",
+            "visible": true
+          },
+          {
+            "fieldName": "expression/pct9",
+            "format": {
+              "digitSeparator": true,
+              "places": 1
+            },
+            "isEditable": true,
+            "label": "Moeite met rondkomen (%)",
+            "visible": true
+          },
+          {
+            "fieldName": "expression/pct10",
+            "format": {
+              "digitSeparator": true,
+              "places": 1
+            },
+            "isEditable": true,
+            "label": "Voldoet aan beweegrichtlijn (%)",
+            "visible": true
+          },
+          {
+            "fieldName": "expression/pct11",
+            "format": {
+              "digitSeparator": true,
+              "places": 1
+            },
+            "isEditable": true,
+            "label": "Wekelijks sporten (%)",
+            "visible": true
+          },
+          {
+            "fieldName": "expression/pct12",
+            "format": {
+              "digitSeparator": true,
+              "places": 1
+            },
+            "isEditable": true,
+            "label": "Overgewicht (%)",
+            "visible": true
+          },
+          {
+            "fieldName": "expression/pct13",
+            "format": {
+              "digitSeparator": true,
+              "places": 1
+            },
+            "isEditable": true,
+            "label": "Rookt tabak (%)",
+            "visible": true
+          }
+        ],
+        "title": "{WK_NAAM} | {GM_NAAM}"
+      },
+      "layerDefinition": {
+        "drawingInfo": {
+          "renderer": {
+            "authoringInfo": {
+              "classificationMethod": "esriClassifyQuantile",
+              "type": "classedColor"
+            },
+            "type": "classBreaks",
+            "visualVariables": [],
+            "classBreakInfos": [
+              {
+                "label": "48 – 70.4",
+                "classMaxValue": 70.5,
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    239,
+                    243,
+                    255,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      255,
+                      255,
+                      255,
+                      153
+                    ],
+                    "width": 0.35,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              },
+              {
+                "label": "> 70.4 – 74",
+                "classMaxValue": 74,
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    189,
+                    215,
+                    231,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      255,
+                      255,
+                      255,
+                      153
+                    ],
+                    "width": 0.35,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              },
+              {
+                "label": "> 74 – 76.4",
+                "classMaxValue": 76.4,
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    107,
+                    174,
+                    214,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      255,
+                      255,
+                      255,
+                      153
+                    ],
+                    "width": 0.35,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              },
+              {
+                "label": "> 76.4 – 78.6",
+                "classMaxValue": 78.7,
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    49,
+                    130,
+                    189,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      255,
+                      255,
+                      255,
+                      153
+                    ],
+                    "width": 0.35,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              },
+              {
+                "label": "> 78.6 – 88.8",
+                "classMaxValue": 88.9,
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    8,
+                    81,
+                    156,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      255,
+                      255,
+                      255,
+                      153
+                    ],
+                    "width": 0.35,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              }
+            ],
+            "defaultLabel": "Geen gegevens",
+            "defaultSymbol": {
+              "type": "esriSFS",
+              "color": [
+                222,
+                222,
+                222,
+                255
+              ],
+              "outline": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "width": 0.3,
+                "style": "esriSLSSolid"
+              },
+              "style": "esriSFSSolid"
+            },
+            "field": "goed_ervaren_gezondheid_4",
+            "legendOptions": {
+              "title": "Goed ervaren gezondheid (%)"
+            },
+            "minValue": 48.5
+          }
+        }
+      }
+    }
+  ],
+  "baseMap": {
+    "baseMapLayers": [
+      {
+        "id": "ac53cdd7464c41b8a72dcdd05ccb8028",
+        "opacity": 1,
+        "title": "Topo_RD",
+        "visibility": true,
+        "itemId": "38c4cfd9b72346c988be5fff1668ea79",
+        "layerType": "VectorTileLayer",
+        "minScale": 0,
+        "maxScale": 11,
+        "styleUrl": "https://tiles.arcgis.com/tiles/nSZVuSZjHpEZZbRo/arcgis/rest/services/Topo_RD/VectorTileServer"
+      }
+    ],
+    "title": "Topo RD (vector tiled)"
+  },
+  "authoringApp": "ArcGIS API for JavaScript",
+  "authoringAppVersion": "5.1",
+  "spatialReference": {
+    "latestWkid": 3857,
+    "wkid": 102100
+  },
+  "timeZone": "system",
+  "version": "2.37",
+  "initialState": {
+    "viewpoint": {
+      "targetGeometry": {
+        "spatialReference": {
+          "latestWkid": 3857,
+          "wkid": 102100
+        },
+        "xmin": 362203.48166970495,
+        "ymin": 6574409.541287132,
+        "xmax": 806304.388895905,
+        "ymax": 7087099.6866824245
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "version": "0.3",
+  "kind": "app",
+  "generatedAt": "2026-11-06T12:55:23.718Z",
+  "item": {
+    "title": "Gezondheidsmonitor 2024 — gezondheid en welzijn"
+  },
+  "map": {
+    "type": "webmap",
+    "path": "./map.json"
+  },
+  "app": {
+    "template": "nova-app",
+    "preset": "map",
+    "showHeader": false,
+    "theme": {
+      "mode": "light",
+      "accent": "default"
+    },
+    "layout": {
+      "left": {
+        "hidden": false,
+        "title": "Gezondheidsthema’s",
+        "collapsed": false,
+        "blocks": [
+          {
+            "type": "customMount",
+            "id": "health-theme-switcher"
+          }
+        ]
+      }
+    },
+    "widgets": [
+      {
+        "id": "health-legend",
+        "type": "legend",
+        "slot": "bottom-right",
+        "config": {}
+      },
+      {
+        "id": "default-layer-list",
+        "type": "layerList",
+        "slot": "top-right",
+        "config": {}
+      },
+      {
+        "id": "default-basemap-gallery",
+        "type": "basemapGallery",
+        "slot": "top-right",
+        "config": {}
+      }
+    ],
+    "interactions": [],
+    "behaviors": [
+      {
+        "id": "health-theme-switcher",
+        "label": "Vijf gezondheidsthema’s",
+        "bundlePath": "./runtime/behaviors/health-theme-switcher-c802ce5afbafafe6.js",
+        "sourceSha256": "c802ce5afbafafe6e7488d6213a0f44c1cace55f8f47f2fe52d7c8aebbc9d8ec",
+        "modulePaths": [
+          "esri/smartMapping/renderers/color"
+        ],
+        "config": {
+          "layerId": "1a1b0eed43c-layer-4"
+        },
+        "mounts": [
+          "health-theme-switcher"
+        ],
+        "ownedLayerIds": [],
+        "interactions": [],
+        "installedAt": "2026-11-06T13:04:12.138Z"
+      }
+    ]
+  },
+  "nova": {
+    "basename": "465227ca-f38d-4cfc-88b5-08183eacfc93",
+    "presentationMode": "app",
+    "ownedGraphicsLayerIds": [],
+    "origin": {
+      "portalUrl": "https://www.arcgis.com",
+      "mapId": "output-a1dae44f-356b-4594-98c3-394535c6f596",
+      "mapName": "New Conversation",
+      "viewMode": "2d",
+      "capturedAt": "2026-11-06T12:55:23.716Z"
+    },
+    "sourceSelection": {
+      "mode": "all"
+    },
+    "unsupportedLayers": [],
+    "degradedFeatures": []
+  }
+}
